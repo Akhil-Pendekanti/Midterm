@@ -13,8 +13,8 @@ permissions:
   contents: read
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+  # test:
+  #   runs-on: ubuntu-latest
   build:
     env:
       CALC_FILE_PATH : './data/calculator_history.csv'
