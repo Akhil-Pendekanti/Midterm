@@ -19,7 +19,7 @@ jobs:
      env:
       CALC_FILE_PATH : './data/calculator_history.csv'
      runs-on: ubuntu-latest
-     steps:
+   steps:
      - uses: actions/checkout@v3
      - name: Set up Python 3.10
        uses: actions/setup-python@v3
