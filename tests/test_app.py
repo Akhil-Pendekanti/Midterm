@@ -1,7 +1,11 @@
 '''Test cases of different operations performed'''
 import pytest
 from app import App
+from app.history import History
 
+def test_app_add_command():
+    history = History()
+    
 def test_app_get_environment_variable():
     '''Test how the REPL handles the command.'''
     app = App()
