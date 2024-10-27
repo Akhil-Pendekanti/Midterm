@@ -7,8 +7,6 @@ class History:
         path= os.environ.get('calc_file_path')
         self.path = path
         self.counter = 1
-        if path is None:
-            path = "default_history_file.txt"
         if not os.path.exists(os.path.dirname(path)):
             os.makedirs(os.path.dirname(path))
             logging.info(f"The directory '{os.path.dirname(path)}' is created.")
